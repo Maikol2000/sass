@@ -12,13 +12,30 @@
     margin-top: 10px;
     height: 1130px;
   }
+  @include Responsive(SM) {
+    width: 240%;
+    height: 117rem;
+  }
   #ab_img_bottom {
     width: 100%;
     position: relative;
     bottom: 185px;
+    @include Responsive(MD) {
+      position: relative;
+      bottom: -29px;
+      width: 127%;
+    }
+    @include Responsive(SM) {
+      width: 124%;
+    padding-top: 0rem;
+    }
   }
   .ab-content {
     padding-top: 90px;
+    @include Responsive(SM) {
+      margin-left: 10px;
+      padding-top: 16rem;
+    }
     .ab-text {
       position: relative;
       bottom: -130px;
@@ -34,6 +51,10 @@
         @include Responsive(MD) {
           font-size: 1.2rem;
         }
+        @include Responsive(SM) {
+          font-size: 3rem;
+          font-weight: 500;
+        }
       }
       h1 {
         font-size: 55px;
@@ -42,23 +63,26 @@
           width: 152%;
           font-size: 80px;
         }
+        @include Responsive(SM) {
+          font-size: 8.2rem;
+          font-weight: 700;
+          width: 155%;
+        }
       }
-    }
-  }
-  #ab_img_bottom {
-    @include Responsive(MD) {
-      position: relative;
-      bottom: -29px;
-      width: 127%;
     }
   }
   .ab-img {
     img {
       @include Responsive(MD) {
         position: relative;
-      bottom: -171px;
-      right: 750px;
-      width: 186%;
+        bottom: -171px;
+        right: 750px;
+        width: 186%;
+      }
+      @include Responsive(SM) {
+        width: 460%;
+        margin-left: -40px;
+        margin-top: 240px;
       }
     }
   }

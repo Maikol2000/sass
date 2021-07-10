@@ -8,11 +8,14 @@ header {
       margin-left: 0;
       height: 80px;
     }
+    @include Responsive(SM) {
+      height: 150px;
+    }
     img {
       width: 80px;
       @include Responsive(MD) {
-        width: 40%;
-        margin-left: 60px;
+        width: 72%;
+        margin-left: 100px;
       }
     }
     .ab_navBar {
@@ -64,6 +67,11 @@ header {
       color: #b61984;
       font-size: 30px;
       position: absolute;
+    }
+    button{
+      i{
+        font-size: 85px;
+      }
     }
   }
 }

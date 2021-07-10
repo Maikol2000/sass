@@ -55,14 +55,43 @@ a {
   }
 }
 
+@media only screen and (max-width: 768px) {
+  .about {
+    width: 240%;
+    height: 117rem;
+  }
+}
+
 .about #ab_img_bottom {
   width: 100%;
   position: relative;
   bottom: 185px;
 }
 
+@media only screen and (max-width: 992px) {
+  .about #ab_img_bottom {
+    position: relative;
+    bottom: -29px;
+    width: 127%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .about #ab_img_bottom {
+    width: 124%;
+    padding-top: 0rem;
+  }
+}
+
 .about .ab-content {
   padding-top: 90px;
+}
+
+@media only screen and (max-width: 768px) {
+  .about .ab-content {
+    margin-left: 10px;
+    padding-top: 16rem;
+  }
 }
 
 .about .ab-content .ab-text {
@@ -90,6 +119,13 @@ a {
   }
 }
 
+@media only screen and (max-width: 768px) {
+  .about .ab-content .ab-text p {
+    font-size: 3rem;
+    font-weight: 500;
+  }
+}
+
 .about .ab-content .ab-text h1 {
   font-size: 55px;
   font-weight: 700;
@@ -102,11 +138,11 @@ a {
   }
 }
 
-@media only screen and (max-width: 992px) {
-  .about #ab_img_bottom {
-    position: relative;
-    bottom: -29px;
-    width: 127%;
+@media only screen and (max-width: 768px) {
+  .about .ab-content .ab-text h1 {
+    font-size: 8.2rem;
+    font-weight: 700;
+    width: 155%;
   }
 }
 
@@ -116,6 +152,14 @@ a {
     bottom: -171px;
     right: 750px;
     width: 186%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .about .ab-img img {
+    width: 460%;
+    margin-left: -40px;
+    margin-top: 240px;
   }
 }
 
@@ -138,7 +182,6 @@ a {
   .course {
     width: 122%;
     display: contents;
-    background-image: url(../../images-20210705T094001Z-001/images/accent_bottom_wave_01.png);
   }
 }
 
@@ -159,6 +202,12 @@ a {
 @media only screen and (max-width: 992px) {
   .course .course_child .course_img img {
     width: 185%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .course .course_child .course_img img {
+    width: 100rem;
   }
 }
 
@@ -183,6 +232,13 @@ a {
   }
 }
 
+@media only screen and (max-width: 768px) {
+  .course .course_child .course_forms {
+    width: 300%;
+    height: 50rem;
+  }
+}
+
 .course .course_child .course_forms h1 {
   text-align: center;
   margin-bottom: 55px;
@@ -192,6 +248,12 @@ a {
 @media only screen and (max-width: 992px) {
   .course .course_child .course_forms h1 {
     text-align: inherit;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .course .course_child .course_forms h1 {
+    font-size: 6rem;
   }
 }
 
@@ -223,6 +285,19 @@ a {
   display: flex;
 }
 
+@media only screen and (max-width: 768px) {
+  .course .course_child .course_forms form .form-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 15rem;
+  }
+}
+
 .course .course_child .course_forms form .form-row .form-group i {
   padding: 10px;
   color: #b61984;
@@ -249,6 +324,27 @@ a {
   }
 }
 
+@media only screen and (max-width: 768px) {
+  .course .course_child .course_forms form .form-row .form-name {
+    width: 100%;
+    height: 7rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .course .course_child .course_forms form .form-row .form-name i {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .course .course_child .course_forms form .form-row .form-name input {
+    font-size: 3rem;
+    width: 100%;
+    padding-left: 37px;
+  }
+}
+
 .course .course_child .course_forms form .form-row .form-email {
   width: 170px;
   height: 40px;
@@ -261,6 +357,27 @@ a {
   .course .course_child .course_forms form .form-row .form-email {
     width: 50%;
     height: 50px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .course .course_child .course_forms form .form-row .form-email {
+    width: 100%;
+    height: 7rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .course .course_child .course_forms form .form-row .form-email i {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .course .course_child .course_forms form .form-row .form-email input {
+    font-size: 3rem;
+    width: 100%;
+    padding-left: 37px;
   }
 }
 
@@ -277,6 +394,13 @@ a {
     width: 100%;
     font-size: 20px;
     height: 45px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .course .course_child .course_forms form .form-lenguage {
+    font-size: 3rem;
+    height: 6rem;
   }
 }
 
@@ -297,6 +421,14 @@ a {
   }
 }
 
+@media only screen and (max-width: 768px) {
+  .course .course_child .course_forms form .form-lenguage select {
+    width: 100%;
+    font-size: 3rem;
+    padding-left: 25px;
+  }
+}
+
 .course .course_child .course_forms form .form-text {
   border: 1px solid #0000001a;
   width: 343px;
@@ -312,9 +444,23 @@ a {
   }
 }
 
+@media only screen and (max-width: 992px) {
+  .course .course_child .course_forms form .form-text {
+    width: 100%;
+    height: 15rem;
+  }
+}
+
 .course .course_child .course_forms form .form-text i {
   margin-top: -40px;
   color: #b61984;
+}
+
+@media only screen and (max-width: 992px) {
+  .course .course_child .course_forms form .form-text i {
+    font-size: 3rem;
+    margin-top: -9rem;
+  }
 }
 
 .course .course_child .course_forms form .form-text textarea {
@@ -328,6 +474,25 @@ a {
 @media only screen and (max-width: 992px) {
   .course .course_child .course_forms form .form-text textarea {
     width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .course .course_child .course_forms form .form-text textarea {
+    width: 100%;
+    height: 100%;
+    font-size: 3rem;
+    padding-left: 2rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .course .btn {
+    width: 67% !important;
+    margin: 0rem 15rem !important;
+    height: 5rem !important;
+    background-color: #b61984 !important;
+    font-size: 3rem;
   }
 }
 
@@ -363,6 +528,13 @@ footer {
   }
 }
 
+@media only screen and (max-width: 768px) {
+  footer {
+    width: 298%;
+    margin-top: -5rem;
+  }
+}
+
 footer .footer_content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -383,6 +555,12 @@ footer .footer_content {
   }
 }
 
+@media only screen and (max-width: 768px) {
+  footer .footer_content {
+    gap: 29rem;
+  }
+}
+
 footer .footer_content div {
   width: 20%;
 }
@@ -394,6 +572,13 @@ footer .footer_content div {
   }
 }
 
+@media only screen and (max-width: 768px) {
+  footer .footer_content div {
+    font-size: 3rem;
+    width: 150%;
+  }
+}
+
 footer .footer_content div h3 {
   margin-bottom: 30px;
   font-weight: 700;
@@ -402,6 +587,12 @@ footer .footer_content div h3 {
 @media only screen and (max-width: 992px) {
   footer .footer_content div h3 {
     font-size: 35px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  footer .footer_content div h3 {
+    font-size: 4rem;
   }
 }
 
@@ -480,14 +671,20 @@ header .navbar {
   }
 }
 
+@media only screen and (max-width: 768px) {
+  header .navbar {
+    height: 150px;
+  }
+}
+
 header .navbar img {
   width: 80px;
 }
 
 @media only screen and (max-width: 992px) {
   header .navbar img {
-    width: 40%;
-    margin-left: 60px;
+    width: 72%;
+    margin-left: 100px;
   }
 }
 
@@ -545,6 +742,10 @@ header .navbar .navbar-toggler {
   position: absolute;
 }
 
+header .navbar button i {
+  font-size: 85px;
+}
+
 .people {
   background-color: #dcd1f3;
   margin-top: -100px;
@@ -564,6 +765,13 @@ header .navbar .navbar-toggler {
 @media only screen and (max-width: 992px) {
   .people {
     width: 148%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .people {
+    margin-top: 385px;
+    width: 298%;
   }
 }
 
@@ -617,13 +825,37 @@ header .navbar .navbar-toggler {
   color: #b61984;
 }
 
+@media only screen and (max-width: 768px) {
+  .people .pp-item .card .card-body p:first-of-type {
+    font-size: 2.4rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .people .pp-item .card .card-body p {
+    font-size: 3rem;
+  }
+}
+
 .people .pp-item .card .card-body h4 {
   font-weight: 700;
+}
+
+@media only screen and (max-width: 768px) {
+  .people .pp-item .card .card-body h4 {
+    font-size: 5rem;
+  }
 }
 
 @media only screen and (max-width: 992px) {
   .people .pp-item .card {
     width: 45rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .people .pp-item .card {
+    width: 72rem;
   }
 }
 /*# sourceMappingURL=main.css.map */

@@ -12,6 +12,10 @@
   @include Responsive(MD) {
     width: 148%;
   }
+  @include Responsive(SM) {
+    margin-top: 385px;
+    width: 298%;
+  }
   .pp-item {
     display: flex;
     margin: 0 125px;
@@ -42,14 +46,26 @@
             font-size: 12px;
             font-weight: 600;
             color: #b61984;
+            @include Responsive(SM) {
+              font-size: 2.4rem;
+            }
+          }
+          @include Responsive(SM) {
+            font-size: 3rem;
           }
         }
         h4 {
           font-weight: 700;
+          @include Responsive(SM) {
+            font-size: 5rem;
+          }
         }
       }
       @include Responsive(MD) {
         width: 45rem;
+      }
+      @include Responsive(SM) {
+        width: 72rem;
       }
     }
   }

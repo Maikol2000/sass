@@ -22,6 +22,10 @@ footer {
     height: 100%;
     padding: 150px 0;
   }
+  @include Responsive(SM) {
+    width: 298%;
+    margin-top: -5rem;
+  }
   .footer_content {
     display: flex;
     justify-content: space-between;
@@ -31,17 +35,27 @@ footer {
       grid-template-columns: repeat(2, 1fr);
       gap: 40px;
     }
+    @include Responsive(SM) {
+      gap: 29rem;
+    }
     div {
       width: 20%;
       @include Responsive(MD) {
         width: 100%;
         font-size: large;
       }
+      @include Responsive(SM) {
+        font-size: 3rem;
+        width: 150%
+      }
       h3 {
         margin-bottom: 30px;
         font-weight: 700;
         @include Responsive(MD) {
           font-size: 35px;
+        }
+        @include Responsive(SM) {
+          font-size: 4rem;
         }
       }
       div {
