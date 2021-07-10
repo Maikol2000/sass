@@ -5,17 +5,33 @@
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: bottom;
+  @include Responsive(XL) {
+    width: 116%;
+    margin-top: -152px;
+  }
+  @include Responsive(MD) {
+    width: 148%;
+  }
   .pp-item {
     display: flex;
     margin: 0 125px;
     flex-wrap: wrap;
     justify-content: space-around;
+    @include Responsive(XL) {
+      display: grid;
+    grid-template-columns: repeat(4,1fr);
+    }
+    @include Responsive(MD) {
+      display: grid;
+    grid-template-columns: repeat(2,1fr);
+    }
     .card {
       margin: 20px;
       border: none;
       text-align: center;
       transition: all 300ms;
       border-radius: 8px;
+      width: 17rem;
       .blog__item {
         overflow: hidden;
         border-radius: 8px;
@@ -31,6 +47,9 @@
         h4 {
           font-weight: 700;
         }
+      }
+      @include Responsive(MD) {
+        width: 45rem;
       }
     }
   }

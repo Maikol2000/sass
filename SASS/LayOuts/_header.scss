@@ -3,25 +3,37 @@ header {
   .navbar {
     margin-left: 145px;
     z-index: 2222;
-    img{
-      width: 80px;
+    @include Responsive(MD) {
+      background-color: white;
+      margin-left: 0;
+      height: 80px;
     }
-    .collapse {
-      display: flex;
-      justify-content: flex-end;
-      margin-left: 70px;
+    img {
+      width: 80px;
+      @include Responsive(MD) {
+        width: 40%;
+        margin-left: 60px;
+      }
+    }
+    .ab_navBar {
       .navbar-nav {
-        width: 57%;
+        width: 52%;
+        margin-left: 233px;
         a {
           font-weight: 600;
           color: black;
           font-size: 13px;
           padding: 25px;
-          .sr-only{
-            width: 10px;
-            height: 10px;
+          .ab_point {
+            width: 9px;
+            height: 9px;
             border-radius: 100%;
             background-color: #b61984;
+            position: absolute;
+            bottom: 8px;
+            color: white;
+            padding-left: -9px;
+            margin-left: -20px;
           }
         }
       }
@@ -47,5 +59,11 @@ header {
         }
       }
     }
+    .navbar-toggler {
+      border: none;
+      color: #b61984;
+      font-size: 30px;
+      position: absolute;
+    }
   }
-};
+}

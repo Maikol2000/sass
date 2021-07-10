@@ -5,6 +5,14 @@
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: 100%;
+  @include Responsive(XL) {
+    width: 112%;
+  }
+  @include Responsive(MD) {
+    width: 122%;
+    display: contents;
+    background-image: url(../../images-20210705T094001Z-001/images/accent_bottom_wave_01.png);
+  }
   .course_child {
     padding-top: 150px;
     .course_img {
@@ -13,6 +21,9 @@
       img {
         width: 95%;
         margin: -40px 100px;
+        @include Responsive(MD) {
+          width: 185%;
+        }
       }
     }
     .course_forms {
@@ -25,12 +36,24 @@
       height: 500px;
       -webkit-box-shadow: 0 30px 30px -10px #00000033;
       box-shadow: 0 30px 30px -10px #00000033;
+      @include Responsive(MD) {
+        width: 145%;
+        margin-left: 25px;
+        padding: 20px;
+        margin-top: 120px;
+      }
       h1 {
         text-align: center;
         margin-bottom: 55px;
         font-weight: 700;
+        @include Responsive(MD) {
+          text-align: inherit;
+        }
       }
       form {
+        @include Responsive(MD) {
+          width: 100%;
+        }
         button {
           border-radius: 20px;
           height: 3em;
@@ -62,6 +85,10 @@
             height: 40px;
             border-radius: 20px;
             margin: 0px 10px;
+            @include Responsive(MD) {
+              width: 50%;
+              height: 50px;
+            }
           }
           .form-email {
             width: 170px;
@@ -69,6 +96,10 @@
             margin-left: 10px;
             border: solid 1px #0000001a;
             border-radius: 20px;
+            @include Responsive(MD) {
+              width: 50%;
+              height: 50px;
+            }
           }
         }
         .form-lenguage {
@@ -77,6 +108,11 @@
           margin-left: 5px;
           border: solid 1px #0000001a;
           border-radius: 20px;
+          @include Responsive(MD) {
+            width: 100%;
+            font-size: 20px;
+            height: 45px;
+          }
           i {
             padding: 10px;
             color: #b61984;
@@ -85,6 +121,9 @@
             border: none;
             width: 275px;
             font-size: 12px;
+            @include Responsive(MD) {
+              width: 100%;
+            }
           }
         }
         .form-text {
@@ -94,7 +133,9 @@
           margin-left: 10px;
           height: 80px;
           border-radius: 15px;
-          
+          @include Responsive(MD) {
+            width: 100%;
+          }
           i {
             margin-top: -40px;
             color: #b61984;
@@ -105,6 +146,9 @@
             font-size: 12px;
             padding: 5px 10px;
             width: 315px;
+            @include Responsive(MD) {
+              width: 100%;
+            }
           }
         }
       }

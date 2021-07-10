@@ -42,6 +42,19 @@ a {
   top: -91px;
 }
 
+@media only screen and (max-width: 1200px) {
+  .about {
+    width: 116%;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .about {
+    margin-top: 10px;
+    height: 1130px;
+  }
+}
+
 .about #ab_img_bottom {
   width: 100%;
   position: relative;
@@ -58,15 +71,52 @@ a {
   height: 0;
 }
 
+@media only screen and (max-width: 992px) {
+  .about .ab-content .ab-text {
+    position: relative;
+    top: 45px;
+  }
+}
+
 .about .ab-content .ab-text p {
   color: #b61984;
   font-size: 1.1rem;
   font-weight: 600;
 }
 
+@media only screen and (max-width: 992px) {
+  .about .ab-content .ab-text p {
+    font-size: 1.2rem;
+  }
+}
+
 .about .ab-content .ab-text h1 {
   font-size: 55px;
   font-weight: 700;
+}
+
+@media only screen and (max-width: 992px) {
+  .about .ab-content .ab-text h1 {
+    width: 152%;
+    font-size: 80px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .about #ab_img_bottom {
+    position: relative;
+    bottom: -29px;
+    width: 127%;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .about .ab-img img {
+    position: relative;
+    bottom: -171px;
+    right: 750px;
+    width: 186%;
+  }
 }
 
 .course {
@@ -76,6 +126,20 @@ a {
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: 100%;
+}
+
+@media only screen and (max-width: 1200px) {
+  .course {
+    width: 112%;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .course {
+    width: 122%;
+    display: contents;
+    background-image: url(../../images-20210705T094001Z-001/images/accent_bottom_wave_01.png);
+  }
 }
 
 .course .course_child {
@@ -92,6 +156,12 @@ a {
   margin: -40px 100px;
 }
 
+@media only screen and (max-width: 992px) {
+  .course .course_child .course_img img {
+    width: 185%;
+  }
+}
+
 .course .course_child .course_forms {
   float: left;
   width: 30%;
@@ -104,10 +174,31 @@ a {
   box-shadow: 0 30px 30px -10px #00000033;
 }
 
+@media only screen and (max-width: 992px) {
+  .course .course_child .course_forms {
+    width: 145%;
+    margin-left: 25px;
+    padding: 20px;
+    margin-top: 120px;
+  }
+}
+
 .course .course_child .course_forms h1 {
   text-align: center;
   margin-bottom: 55px;
   font-weight: 700;
+}
+
+@media only screen and (max-width: 992px) {
+  .course .course_child .course_forms h1 {
+    text-align: inherit;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .course .course_child .course_forms form {
+    width: 100%;
+  }
 }
 
 .course .course_child .course_forms form button {
@@ -151,6 +242,13 @@ a {
   margin: 0px 10px;
 }
 
+@media only screen and (max-width: 992px) {
+  .course .course_child .course_forms form .form-row .form-name {
+    width: 50%;
+    height: 50px;
+  }
+}
+
 .course .course_child .course_forms form .form-row .form-email {
   width: 170px;
   height: 40px;
@@ -159,12 +257,27 @@ a {
   border-radius: 20px;
 }
 
+@media only screen and (max-width: 992px) {
+  .course .course_child .course_forms form .form-row .form-email {
+    width: 50%;
+    height: 50px;
+  }
+}
+
 .course .course_child .course_forms form .form-lenguage {
   width: 95%;
   height: 40px;
   margin-left: 5px;
   border: solid 1px #0000001a;
   border-radius: 20px;
+}
+
+@media only screen and (max-width: 992px) {
+  .course .course_child .course_forms form .form-lenguage {
+    width: 100%;
+    font-size: 20px;
+    height: 45px;
+  }
 }
 
 .course .course_child .course_forms form .form-lenguage i {
@@ -178,6 +291,12 @@ a {
   font-size: 12px;
 }
 
+@media only screen and (max-width: 992px) {
+  .course .course_child .course_forms form .form-lenguage select {
+    width: 100%;
+  }
+}
+
 .course .course_child .course_forms form .form-text {
   border: 1px solid #0000001a;
   width: 343px;
@@ -185,6 +304,12 @@ a {
   margin-left: 10px;
   height: 80px;
   border-radius: 15px;
+}
+
+@media only screen and (max-width: 992px) {
+  .course .course_child .course_forms form .form-text {
+    width: 100%;
+  }
 }
 
 .course .course_child .course_forms form .form-text i {
@@ -200,6 +325,12 @@ a {
   width: 315px;
 }
 
+@media only screen and (max-width: 992px) {
+  .course .course_child .course_forms form .form-text textarea {
+    width: 100%;
+  }
+}
+
 footer {
   background-image: url(../../images-20210705T094001Z-001/images/footer_background.jpg);
   color: white;
@@ -208,6 +339,27 @@ footer {
   background-repeat: no-repeat;
   background-size: 110%;
   margin-top: -1px;
+}
+
+@media only screen and (max-width: 1200px) {
+  footer {
+    width: 124%;
+    margin-top: -1px;
+    height: 461px;
+    position: relative;
+    left: -103px;
+    background-size: auto;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  footer {
+    width: 150%;
+    margin-left: 103px;
+    background-position: bottom;
+    background-size: 200%;
+    height: 100%;
+  }
 }
 
 footer .footer_content {
@@ -220,8 +372,23 @@ footer .footer_content {
   padding-top: 124px;
 }
 
+@media only screen and (max-width: 992px) {
+  footer .footer_content {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 footer .footer_content div {
   width: 20%;
+}
+
+@media only screen and (max-width: 992px) {
+  footer .footer_content div {
+    width: 100%;
+  }
 }
 
 footer .footer_content div h3 {
@@ -278,44 +445,55 @@ header .navbar {
   z-index: 2222;
 }
 
+@media only screen and (max-width: 992px) {
+  header .navbar {
+    background-color: white;
+    margin-left: 0;
+    height: 80px;
+  }
+}
+
 header .navbar img {
   width: 80px;
 }
 
-header .navbar .collapse {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  margin-left: 70px;
+@media only screen and (max-width: 992px) {
+  header .navbar img {
+    width: 40%;
+    margin-left: 60px;
+  }
 }
 
-header .navbar .collapse .navbar-nav {
-  width: 57%;
+header .navbar .ab_navBar .navbar-nav {
+  width: 52%;
+  margin-left: 233px;
 }
 
-header .navbar .collapse .navbar-nav a {
+header .navbar .ab_navBar .navbar-nav a {
   font-weight: 600;
   color: black;
   font-size: 13px;
   padding: 25px;
 }
 
-header .navbar .collapse .navbar-nav a .sr-only {
-  width: 10px;
-  height: 10px;
+header .navbar .ab_navBar .navbar-nav a .ab_point {
+  width: 9px;
+  height: 9px;
   border-radius: 100%;
   background-color: #b61984;
+  position: absolute;
+  bottom: 8px;
+  color: white;
+  padding-left: -9px;
+  margin-left: -20px;
 }
 
-header .navbar .collapse .head-right {
+header .navbar .ab_navBar .head-right {
   margin-left: -24px;
   margin-right: 41px;
 }
 
-header .navbar .collapse .head-right a {
+header .navbar .ab_navBar .head-right a {
   float: left;
   color: white;
   width: 175px;
@@ -327,10 +505,17 @@ header .navbar .collapse .head-right a {
           box-shadow: inset 0px 0px 0px 23px #b61984;
 }
 
-header .navbar .collapse span i {
+header .navbar .ab_navBar span i {
   margin-top: 16px;
   padding-left: 10px;
   font-size: 13px;
+}
+
+header .navbar .navbar-toggler {
+  border: none;
+  color: #b61984;
+  font-size: 30px;
+  position: absolute;
 }
 
 .people {
@@ -340,6 +525,19 @@ header .navbar .collapse span i {
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: bottom;
+}
+
+@media only screen and (max-width: 1200px) {
+  .people {
+    width: 116%;
+    margin-top: -152px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .people {
+    width: 148%;
+  }
 }
 
 .people .pp-item {
@@ -353,6 +551,24 @@ header .navbar .collapse span i {
       justify-content: space-around;
 }
 
+@media only screen and (max-width: 1200px) {
+  .people .pp-item {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[4];
+        grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .people .pp-item {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 .people .pp-item .card {
   margin: 20px;
   border: none;
@@ -360,6 +576,7 @@ header .navbar .collapse span i {
   -webkit-transition: all 300ms;
   transition: all 300ms;
   border-radius: 8px;
+  width: 17rem;
 }
 
 .people .pp-item .card .blog__item {
@@ -375,5 +592,11 @@ header .navbar .collapse span i {
 
 .people .pp-item .card .card-body h4 {
   font-weight: 700;
+}
+
+@media only screen and (max-width: 992px) {
+  .people .pp-item .card {
+    width: 45rem;
+  }
 }
 /*# sourceMappingURL=main.css.map */
