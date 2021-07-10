@@ -1,0 +1,113 @@
+.course {
+  background-image: url(../../images-20210705T094001Z-001/images/accent_bottom_wave_01.png);
+  width: 100%;
+  height: 677px;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  .course_child {
+    padding-top: 150px;
+    .course_img {
+      float: left;
+      width: 45%;
+      img {
+        width: 95%;
+        margin: -40px 100px;
+      }
+    }
+    .course_forms {
+      float: left;
+      width: 30%;
+      background-color: white;
+      padding: 55px 0px;
+      margin: -35px 141px;
+      border-radius: 15px;
+      height: 500px;
+      -webkit-box-shadow: 0 30px 30px -10px #00000033;
+      box-shadow: 0 30px 30px -10px #00000033;
+      h1 {
+        text-align: center;
+        margin-bottom: 55px;
+        font-weight: 700;
+      }
+      form {
+        button {
+          border-radius: 20px;
+          height: 3em;
+          width: 10em;
+          margin-left: 10px;
+          margin-top: 50px;
+          background-color: white;
+          border: none;
+          box-shadow: inset 0px 0px 0px 23px #b61984;
+          transition: all 300ms ease-in-out;
+        }
+        .form-row {
+          flex-wrap: nowrap;
+          display: flex;
+          .form-group {
+            i {
+              padding: 10px;
+              color: #b61984;
+            }
+            input {
+              border: none;
+              width: 110px;
+              font-size: 12px;
+            }
+          }
+          .form-name {
+            border: solid 1px #0000001a;
+            width: 160px;
+            height: 40px;
+            border-radius: 20px;
+            margin: 0px 10px;
+          }
+          .form-email {
+            width: 170px;
+            height: 40px;
+            margin-left: 10px;
+            border: solid 1px #0000001a;
+            border-radius: 20px;
+          }
+        }
+        .form-lenguage {
+          width: 95%;
+          height: 40px;
+          margin-left: 5px;
+          border: solid 1px #0000001a;
+          border-radius: 20px;
+          i {
+            padding: 10px;
+            color: #b61984;
+          }
+          select {
+            border: none;
+            width: 275px;
+            font-size: 12px;
+          }
+        }
+        .form-text {
+          border: 1px solid #0000001a;
+          width: 343px;
+          padding-left: 10px;
+          margin-left: 10px;
+          height: 80px;
+          border-radius: 15px;
+          
+          i {
+            margin-top: -40px;
+            color: #b61984;
+          }
+          textarea {
+            border: none;
+            height: 70px;
+            font-size: 12px;
+            padding: 5px 10px;
+            width: 315px;
+          }
+        }
+      }
+    }
+  }
+}

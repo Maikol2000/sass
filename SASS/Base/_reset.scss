@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Roboto', sans-serif;;
+    background-color: white;
+    font-size: 15px;
+}
+.clear{
+    clear: both;
+}
+.container{
+    max-width: 1260px;
+    margin: auto;
+}
+a{
+    color: black;
+}
+.form-group{
+    display: flex;
+    align-items: center;
+}

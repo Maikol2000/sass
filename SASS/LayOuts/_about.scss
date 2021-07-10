@@ -1,0 +1,30 @@
+.about{
+    background-image: url(../../images-20210705T094001Z-001/images/yellow_top_wave_01.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 740px;
+    position: relative;
+    top: -91px;
+    #ab_img_bottom{
+        width: 100%;
+        position: relative;
+        bottom: 185px;
+    }
+    .ab-content{
+        padding-top: 90px;
+        .ab-text{
+            position: relative;
+            bottom: -130px;
+            height: 0;
+            p{
+                color: #b61984;
+                font-size: 1.1rem;
+                font-weight: 600;
+            }
+            h1{
+                font-size: 55px;
+                font-weight: 700;
+            }
+        }
+    }
+}
