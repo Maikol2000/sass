@@ -277,6 +277,13 @@ a {
   transition: all 300ms ease-in-out;
 }
 
+.course .course_child .course_forms form button:hover {
+  border: solid #b61984 1px;
+  -webkit-box-shadow: inset 0 0 0 0 white;
+          box-shadow: inset 0 0 0 0 white;
+  color: #b61984;
+}
+
 .course .course_child .course_forms form .form-row {
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
@@ -644,8 +651,19 @@ footer .footer_newsletter input:last-of-type {
   -webkit-box-shadow: 0 0 0 1px #fff inset;
           box-shadow: 0 0 0 1px #fff inset;
   border: none;
-  background-color: white;
+  background-color: #b61984;
   margin-top: 8px;
+  -webkit-box-shadow: inset 0px 0px 0px 25px white;
+          box-shadow: inset 0px 0px 0px 25px white;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+footer .footer_newsletter input:last-of-type:hover {
+  -webkit-box-shadow: inset 0 0 0 0 #b61984;
+          box-shadow: inset 0 0 0 0 #b61984;
+  color: white;
+  border: solid 1px white;
 }
 
 @media only screen and (max-width: 992px) {
@@ -698,6 +716,12 @@ header .navbar .ab_navBar .navbar-nav a {
   color: black;
   font-size: 13px;
   padding: 25px;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+header .navbar .ab_navBar .navbar-nav a:hover {
+  color: #b61984;
 }
 
 header .navbar .ab_navBar .navbar-nav a .ab_point {
@@ -720,6 +744,7 @@ header .navbar .ab_navBar .head-right {
 header .navbar .ab_navBar .head-right a {
   float: left;
   color: white;
+  background: white;
   width: 175px;
   height: 45px;
   border-radius: 22px;
@@ -727,12 +752,26 @@ header .navbar .ab_navBar .head-right a {
   line-height: 45px;
   -webkit-box-shadow: inset 0px 0px 0px 23px #b61984;
           box-shadow: inset 0px 0px 0px 23px #b61984;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+header .navbar .ab_navBar .head-right a:hover {
+  -webkit-box-shadow: inset 0 0 0 0 white;
+          box-shadow: inset 0 0 0 0 white;
+  color: #b61984;
+  border: solid 1px #b61984;
+  text-decoration: none;
 }
 
 header .navbar .ab_navBar span i {
   margin-top: 16px;
   padding-left: 10px;
   font-size: 13px;
+}
+
+header .navbar .ab_navBar span i:hover {
+  color: #b61984;
 }
 
 header .navbar .navbar-toggler {
@@ -814,9 +853,23 @@ header .navbar button i {
   width: 17rem;
 }
 
+.people .pp-item .card:hover {
+  -webkit-box-shadow: 0 30px 30px -10px #00000033;
+          box-shadow: 0 30px 30px -10px #00000033;
+}
+
 .people .pp-item .card .blog__item {
   overflow: hidden;
-  border-radius: 8px;
+}
+
+.people .pp-item .card .blog__item img {
+  -webkit-transition: all 350ms ease;
+  transition: all 350ms ease;
+}
+
+.people .pp-item .card .blog__item img:hover {
+  -webkit-transform: scale3d(1.05, 1.05, 1.05);
+          transform: scale3d(1.05, 1.05, 1.05);
 }
 
 .people .pp-item .card .card-body p:first-of-type {

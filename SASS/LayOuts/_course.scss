@@ -73,6 +73,11 @@
           border: none;
           box-shadow: inset 0px 0px 0px 23px #b61984;
           transition: all 300ms ease-in-out;
+          &:hover{
+            border: solid #b61984 1px;
+            box-shadow: inset 0 0 0 0 white;
+            color: #b61984;
+          }
         }
         .form-row {
           flex-wrap: nowrap;
