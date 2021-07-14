@@ -1,21 +1,8 @@
 var serviceUser = new ServiceUser();
 // console.log(serviceUser);
 
-var layDanhSachND = function () {
-  serviceUser
-    .layDSND()
-    .then(function (result) {
-        render(result.data);
-    })
-    .catch(function (error) {
-      console.log("lỗi lấy danh sách");
-    });
-};
-layDanhSachND();
-
 var layDanhSachTaiKhoan = function () {
    var arrTaiKhoan = []
-   console.log(arrTaiKhoan);
   serviceUser
     .layDSND()
     .then(function (result) {
@@ -26,7 +13,7 @@ var layDanhSachTaiKhoan = function () {
             render(arrTaiKhoan)
         }
       }
-      
+ 
     })
     .catch(function (error) {});
 };

@@ -34,7 +34,7 @@ a {
 }
 
 .about {
-  background-image: url(../../images-20210705T094001Z-001/images/yellow_top_wave_01.png);
+  background-image: url(../images-20210705T094001Z-001/images/yellow_top_wave_01.png);
   background-repeat: no-repeat;
   background-size: 100%;
   height: 740px;
@@ -164,7 +164,7 @@ a {
 }
 
 .course {
-  background-image: url(../../images-20210705T094001Z-001/images/accent_bottom_wave_01.png);
+  background-image: url(../images-20210705T094001Z-001/images/accent_bottom_wave_01.png);
   width: 100%;
   height: 677px;
   background-position: bottom;
@@ -504,7 +504,7 @@ a {
 }
 
 footer {
-  background-image: url(../../images-20210705T094001Z-001/images/footer_background.jpg);
+  background-image: url(../images-20210705T094001Z-001/images/footer_background.jpg);
   color: white;
   height: 512px;
   background-position: center;
@@ -653,8 +653,8 @@ footer .footer_newsletter input:last-of-type {
   border: none;
   background-color: #b61984;
   margin-top: 8px;
-  -webkit-box-shadow: inset 0px 0px 0px 25px white;
-          box-shadow: inset 0px 0px 0px 25px white;
+  -webkit-box-shadow: inset 0px 0px 0px 26px white;
+          box-shadow: inset 0px 0px 0px 26px white;
   -webkit-transition: all 300ms ease;
   transition: all 300ms ease;
 }
@@ -788,7 +788,7 @@ header .navbar button i {
 .people {
   background-color: #dcd1f3;
   margin-top: -100px;
-  background-image: url(../../images-20210705T094001Z-001/images/Wave_White_bottom_right_shape_01.png);
+  background-image: url(../images-20210705T094001Z-001/images/Wave_White_bottom_right_shape_01.png);
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: bottom;

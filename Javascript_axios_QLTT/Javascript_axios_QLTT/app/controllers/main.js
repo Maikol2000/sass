@@ -73,6 +73,7 @@ var themNguoiDung = function (ND) {
       6,
       8
     );
+    if(!isValid) return
   isValid &=
     validator.kiemTraRong(email, "tbEmail", "Không được để rỗng") &&
     validator.kiemTraKiTuEmail(email, "tbEmail", "Email không đúng kí tự");
